@@ -1,5 +1,5 @@
 import React from "react";
-import CategoryFilter from "./CategoryFilter";
+import CategorySelect from "./CategorySelect";
 import Navbar from "./Navbar";
 
 const BasePage = ({ children }) => {
@@ -7,7 +7,7 @@ const BasePage = ({ children }) => {
     <>
       <Navbar />
       <div className="content">
-        <CategoryFilter />
+        <CategorySelect />
         {children}
       </div>
     </>
