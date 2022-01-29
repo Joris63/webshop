@@ -5,18 +5,18 @@ const Navbar = (props) => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <b>Superb</b>Reads
+        <b>Random</b>Logo
       </div>
       <div className="search_bar">
-        <div className="category_select">
+        <button className="category_select">
           <p>All</p>
           <ion-icon name="chevron-down-outline" />
-        </div>
+        </button>
         <div className="search_wrapper">
-          <input placeholder="Search thousands of books..." />
-          <div className="right-icon">
+          <input placeholder="Search thousands of products..." />
+          <button className="right-icon">
             <ion-icon name="search-outline" />
-          </div>
+          </button>
         </div>
       </div>
       <div className="buttons">

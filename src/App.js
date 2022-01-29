@@ -1,11 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import FilteredPage from './components/FilteredPage';
 
 function App() {
   return (
-    <>
-      <Navbar />
-    </>
+      <FilteredPage />
   );
 }
 

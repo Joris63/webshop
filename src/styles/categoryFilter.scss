@@ -1,0 +1,44 @@
+.category_filter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+
+    & .dropdown_btn {
+        background: none;
+        border: none;
+        font-size: 0.9em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 8px;
+        padding: 0 10px;
+        cursor: pointer;
+
+        &:hover {
+            background: #f6f6f6;
+        }
+    }
+    
+    & .top_categories {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+
+        & .category button{
+            background: none;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9em;
+            height: 40px;
+            padding: 0 8px;
+            cursor: pointer;
+
+            &:hover {
+                background: #f6f6f6;
+            }
+        }
+    }
+}
