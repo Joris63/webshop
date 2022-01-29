@@ -205,6 +205,7 @@ Aliquam cursus suscipit laoreet. Curabitur non magna pharetra, luctus sapien a, 
                 </div>
               </div>
             </div>
+            <hr />
             <div className="product">
               <img
                 src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Library-Sites-RitualsSharedContent/default/dw4e746267/Magazine/8dd6e14f-17cc-4b7a-a448-e79f70c0c8cf.jpg?sw=285&sh=370&sm=fit&cx=0&cy=0&cw=545&ch=707&sfrm=png"
@@ -262,6 +263,7 @@ Aliquam cursus suscipit laoreet. Curabitur non magna pharetra, luctus sapien a, 
                 </div>
               </div>
             </div>
+            <hr />
             <div className="product">
               <img
                 src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Library-Sites-RitualsSharedContent/default/dw4e746267/Magazine/8dd6e14f-17cc-4b7a-a448-e79f70c0c8cf.jpg?sw=285&sh=370&sm=fit&cx=0&cy=0&cw=545&ch=707&sfrm=png"
@@ -319,6 +321,7 @@ Aliquam cursus suscipit laoreet. Curabitur non magna pharetra, luctus sapien a, 
                 </div>
               </div>
             </div>
+            <hr />
             <div className="product">
               <img
                 src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Library-Sites-RitualsSharedContent/default/dw4e746267/Magazine/8dd6e14f-17cc-4b7a-a448-e79f70c0c8cf.jpg?sw=285&sh=370&sm=fit&cx=0&cy=0&cw=545&ch=707&sfrm=png"
@@ -376,6 +379,7 @@ Aliquam cursus suscipit laoreet. Curabitur non magna pharetra, luctus sapien a, 
                 </div>
               </div>
             </div>
+            <hr />
           </div>
         </div>
       </div>
