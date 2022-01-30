@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import BasePage from "./BasePage";
 import "../styles/filteredPage.scss";
 import PageFilter from "./PageFilter";
 import ProductList from "./ProductList";
 
 const FilteredPage = (props) => {
+  const [filter, setFilter] = useState([]);
+
   return (
     <BasePage>
       <header>
@@ -15,8 +17,8 @@ const FilteredPage = (props) => {
         </h1>
       </header>
       <div className="container">
-        <PageFilter />
-        <ProductList />
+        <PageFilter filter={filter} setFilter={setFilter} />
+        <ProductList filter={filter} />
       </div>
     </BasePage>
   );

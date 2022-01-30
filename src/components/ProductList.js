@@ -1,12 +1,24 @@
-import React from "react";
-import '../styles/productList.scss'
+import React, { useState } from "react";
+import "../styles/productList.scss";
 
 const ProductList = (props) => {
+  const [mode, setMode] = useState("list");
+
   return (
     <div className="product_list">
       <div className="list_actions">
-        <button>Grid View</button>
-        <button className="active">List View</button>
+        <button
+          className={mode === "grid" ? "active" : null}
+          onClick={() => setMode("grid")}
+        >
+          Grid View
+        </button>
+        <button
+          className={mode === "list" ? "active" : null}
+          onClick={() => setMode("list")}
+        >
+          List View
+        </button>
         <button>
           <p>Sort</p>
           <ion-icon name="chevron-down-outline" />
